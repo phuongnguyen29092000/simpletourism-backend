@@ -30,6 +30,7 @@
         "moment": "^2.29.3",
         "mongoose": "^6.2.7",
         "mongoose-slug-generator": "^1.0.4",
+        "morgan": "^1.10.0",
         "multer": "^1.4.4",
         "nodemailer": "^6.7.2",
         "nodemon": "^2.0.18",
@@ -39,7 +40,5 @@
         "paypal-rest-sdk": "^1.8.1",
         "validator": "^13.7.0"
     },
-    "devDependencies": {
-        "morgan": "^1.10.0"
-    }
+    "devDependencies": {}
 }
