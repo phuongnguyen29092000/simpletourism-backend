@@ -27,8 +27,8 @@ const createPayment = async (req, res, items, total, idTicket) => {
       payment_method: "paypal",
     },
     redirect_urls: {
-      return_url: `http://localhost:4000/payment/${idTicket}/success`,
-      cancel_url: "http://localhost:4000/payment/failure",
+      return_url: `https://simple-tourism-2022-heroku-22.herokuapp.com/payment/${idTicket}/success`,
+      cancel_url: "https://simple-tourism-2022-heroku-22.herokuapp.com/payment/failure",
     },
     transactions: [
       {
